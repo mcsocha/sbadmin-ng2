@@ -1,15 +1,17 @@
-{
+﻿{
   "compilerOptions": {
+    "target": "es5",
+    "module": "system",
+    "moduleResolution": "node",
+    "sourceMap": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "module": "system",
-    "target": "es6",
-    "sourceMap": true,
-    "removeComments": false
+    "removeComments": false,
+    "noImplicitAny": false
   },
-  "files": [
-    "wwwroot/app/boot.ts",
-    "wwwroot/app/main.component.ts",
-    "wwwroot/app/navigation.component.ts"
+  "exclude": [
+    "node_modules",
+    "wwwroot\\node_modules"
+
   ]
 }

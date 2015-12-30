@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:62503/",
+      "applicationUrl": "http://localhost:56719/",
       "sslPort": 0
     }
   },
@@ -14,7 +14,8 @@
       "launchUrl": "index.html",
       "environmentVariables": {
         "Hosting:Environment": "Development"
-      }
+      },
+      "sdkVersion": "dnx-clr-win-x86.1.0.0-rc1-final"
     },
     "web": {
       "commandName": "web",

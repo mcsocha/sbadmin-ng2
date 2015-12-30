@@ -1,4 +1,5 @@
 ﻿{
+  "userSecretsId": "aspnet5-IISExpressTester-9d6144cc-bb79-4bbe-a870-db94382ba09a",
   "version": "1.0.0-*",
   "compilationOptions": {
     "emitEntryPoint": true
@@ -6,13 +7,12 @@
   "dependencies": {
     "Microsoft.AspNet.IISPlatformHandler": "1.0.0-rc1-final",
     "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",
-    "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
     "Microsoft.AspNet.StaticFiles": "1.0.0-rc1-final",
+    "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
+    "Microsoft.Extensions.CodeGenerators.Mvc": "1.0.0-rc1-final",
     "Microsoft.Extensions.Configuration.FileProviderExtensions": "1.0.0-rc1-final",
     "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
-    "Microsoft.Extensions.Logging": "1.0.0-rc1-final",
-    "Microsoft.Extensions.Logging.Console": "1.0.0-rc1-final",
-    "Microsoft.Extensions.Logging.Debug": "1.0.0-rc1-final"
+    "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0-rc1-final"
   },
   "commands": {
     "web": "Microsoft.AspNet.Server.Kestrel"
@@ -25,14 +25,16 @@
     }
   },
   "exclude": [
-    "wwwroot"
+    "wwwroot",
+    "wwwroot\\node_modules",
+    "node_modules"
   ],
   "publishExclude": [
     "**.user",
     "**.vspscc"
   ],
-  "configurations": {
-    "Dev": { },
-    "Local": { }
-  }
+  "scripts": {
+    "prepublish": ""
+  },
+  "configurations": { }
 }

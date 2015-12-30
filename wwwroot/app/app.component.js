@@ -1,4 +1,4 @@
-System.register(['./lib/angular2/core'], function(exports_1) {
+System.register(['../node_modules/angular2/core'], function(exports_1) {
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
         var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
         if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -9,27 +9,27 @@ System.register(['./lib/angular2/core'], function(exports_1) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
     var core_1;
-    var MainComponent;
+    var AppComponent;
     return {
         setters:[
             function (core_1_1) {
                 core_1 = core_1_1;
             }],
         execute: function() {
-            MainComponent = (function () {
-                function MainComponent() {
+            AppComponent = (function () {
+                function AppComponent() {
                 }
-                MainComponent = __decorate([
+                AppComponent = __decorate([
                     core_1.Component({
-                        selector: 'main',
-                        template: "<h1>MAIN!!!!!</h1>"
+                        selector: 'app',
+                        template: '<h1>My SECOND Angular 2 App</h1>'
                     }), 
                     __metadata('design:paramtypes', [])
-                ], MainComponent);
-                return MainComponent;
+                ], AppComponent);
+                return AppComponent;
             })();
-            exports_1("MainComponent", MainComponent);
+            exports_1("AppComponent", AppComponent);
         }
     }
 });
-//# sourceMappingURL=main.component.js.map
+//# sourceMappingURL=app.component.js.map
