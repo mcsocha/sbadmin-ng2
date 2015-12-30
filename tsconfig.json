@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "system",
+    "target": "es6",
+    "sourceMap": true,
+    "removeComments": false
+  },
+  "files": [
+    "wwwroot/app/boot.ts",
+    "wwwroot/app/main.component.ts",
+    "wwwroot/app/navigation.component.ts"
+  ]
+}
