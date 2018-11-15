@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "sbadmin-ng22", "sbadmin-ng22.xproj", "{B61CDDA7-EF1B-4492-9FC4-FF97390160C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sbadmin-ng22", "sbadmin-ng22.xproj", "{B61CDDA7-EF1B-4492-9FC4-FF97390160C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E991C3CD-0B34-48F4-BDBD-4E93863E6C20}
 	EndGlobalSection
 EndGlobal
